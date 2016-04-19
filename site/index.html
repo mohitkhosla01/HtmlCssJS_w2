@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>HTML CSS JS for Web Devs</title>
+	</head>
+
+	<style>
+		*
+		{
+			box-sizing: border-box;
+			text-align: center;
+			font-family: Calibri;
+			padding: 0px;
+		}
+
+		div
+		{
+			border: 1px solid black;
+			margin-right: 10px;
+		}
+
+		.title
+		{
+			border: 1px solid black;
+		}
+
+		.a
+		{
+			background-color: #ff0000;
+			padding: 0px 5px 5px 5px;
+			margin: 5px;
+		}
+
+		.b
+		{
+			background-color: #00ff00;
+			padding: 0px 10px 10px 10px;
+			margin: 5px;
+		}
+
+		.c
+		{
+			background-color: #0000ff;
+			padding: 0px 5px 5px 5px;
+			margin: 5px;
+		}
+
+		@media(min-width: 992px)
+		{
+			.large
+			{
+				float: left;
+				width: 30%;
+			}
+		}
+
+		@media(min-width: 768px) and (max-width: 991px)
+		{
+			.medium1
+			{
+				float: left;
+				width: 45%;
+			}
+
+			.medium2
+			{
+				float: left;
+				width: 90%;
+			}
+		}
+
+		@media(max-width: 767px)
+		{
+			.small
+			{
+				float: left;
+				width: 100%;
+			}
+		}
+	</style>
+
+	<body>
+		<h1>HTML CSS JS for Web Devs</h1>
+
+		<div class="large medium1 small">
+			<p class="title">Toyota</p>
+			<p class="a">Toyota Motor Corporation is a Japanese automotive manufacturer headquartered in Toyota, Aichi, Japan. In March 2014 the multinational corporation consisted of 338,875 employees worldwide and, as of February 2016, is the 13th-largest company in the world by revenue.</p>
+		</div>
+
+		<div class="large medium1 small">
+			<p class="title">Volkswagen</p>
+			<p class="b">Volkswagen AG is a German car manufacturer headquartered in Wolfsburg, Germany. Established in 1937, Volkswagen is the top-selling and namesake marque of the VW Group, the holding company created in 1975 for the growing company, and is now the second-largest automaker in the world.</p>
+		</div>
+
+		<div class="large medium2 small">
+			<p class="title">Ford</p>
+			<p class="c">The Ford Motor Company is an American multinational automaker headquartered in Dearborn, Michigan. It was founded by Henry Ford and incorporated in 1903. The company sells automobiles and commercial vehicles under the Ford brand and most luxury cars under the Lincoln brand.</p>
+		</div>
+	</body>
+</html>
+
